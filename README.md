@@ -2,6 +2,11 @@
 Eloquent cookbook
 
 
+What is this ? Well, personally I'm often don't remember how to make somestatements/queries via eloquent orm, that's why I'm going to make some list of useful snippets and recipes. 
+
+Feel free to contribute too !
+
+
 ## 1. SELECT * from table users
 
 Result is a collection.
