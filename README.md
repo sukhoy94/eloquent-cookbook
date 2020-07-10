@@ -31,6 +31,18 @@ $users = User::take(5)->get();
 
 ## 3. SELECT certain columns
 
+In case if you want to select certain columns, pass it as an array to all() method.
+
 ```
 $users = User::all(['id', 'name', 'email',]);
 ```
+
+## 4. Simple where
+
+Let's get all users with id bigger then 2686:
+
+```
+$users = User::where('id', '>', 2686)->get();
+```
+
+
