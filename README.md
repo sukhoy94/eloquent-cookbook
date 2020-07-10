@@ -2,7 +2,7 @@
 Eloquent cookbook
 
 
-What is this ? Well, personally I'm often don't remember how to make somestatements/queries via eloquent orm, that's why I'm going to make some list of useful snippets and recipes. 
+What is this ? Well, personally I'm often don't remember how to make some statements/queries via eloquent orm, that's why I'm going to make some list of useful snippets and recipes. 
 
 Feel free to contribute too !
 
