@@ -2,7 +2,7 @@
 Eloquent cookbook
 
 
-## Get all data from table users
+## 1. SELECT * from table users
 
 Result is a collection.
 ```
@@ -20,4 +20,11 @@ $results = DB::select('
         ');
         
        
+```
+
+
+## 2. LIMIT users
+
+```
+$users = User::take(5)->get();
 ```
