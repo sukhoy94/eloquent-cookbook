@@ -1,4 +1,4 @@
-# eloquent-cookbook
+# eloquent cookbook and recipies
 Eloquent cookbook
 
 
