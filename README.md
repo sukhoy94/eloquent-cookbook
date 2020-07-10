@@ -28,3 +28,9 @@ $results = DB::select('
 ```
 $users = User::take(5)->get();
 ```
+
+## 3. SELECT certain columns
+
+```
+$users = User::all(['id', 'name', 'email',]);
+```
