@@ -70,3 +70,10 @@ $users = DB::table('users')
             ->take(10)
             ->get();
 ```
+
+## 7. LIKE
+
+Grab all users whose name starts with A.
+```
+$users = User::where('name', 'like', 'A%')->get();
+```
