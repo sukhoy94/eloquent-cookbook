@@ -59,3 +59,14 @@ $users = User::where([
         ])->get();
 ```
 
+## 6. Ordering
+
+Let's grab 10 users with the highest id.
+
+
+```
+$users = DB::table('users')
+            ->orderBy('id', 'desc')
+            ->take(10)
+            ->get();
+```
