@@ -77,3 +77,14 @@ Grab all users whose name starts with A.
 ```
 $users = User::where('name', 'like', 'A%')->get();
 ```
+
+## 8. Aliasing columns
+
+```
+$users = DB::table('users')
+            ->select(['id as uid', 'name as title',])
+            ->orderBy('id', 'desc')
+            ->take(10)
+            ->get();
+```
+
