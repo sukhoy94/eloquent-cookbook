@@ -49,5 +49,13 @@ Let's get all users with id bigger then 2686:
 ```
 $users = User::where('id', '>', 2686)->get();
 ```
+## 5. Where with AND
 
+Let's get all users with id bigger then 2686 and less then 2700
+```
+$users = User::where([
+            ['id', '>', 2686],
+            ['id', '<', 2700],
+        ])->get();
+```
 
