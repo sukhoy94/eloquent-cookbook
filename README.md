@@ -93,3 +93,17 @@ $users = DB::table('users')
             ->get();
 ```
 
+## 9. Group By
+
+Let's add age column to users, take all users with the age > 20 and count users for each age:
+
+```
+$users = DB::table('users')
+            ->select(['age', DB::raw('COUNT(id) as amount')])
+            ->where('age', '>', 20)
+            ->groupBy('age')
+            ->get();
+            
+```
+
+
