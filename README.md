@@ -13,6 +13,11 @@ Result is a collection.
 ```
 $results = User::all();
 ```
+or
+
+```
+$users = DB::table('users')->get();
+```
 
 Pure sql, results is an array.
 
