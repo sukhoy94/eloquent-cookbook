@@ -106,4 +106,13 @@ $users = DB::table('users')
             
 ```
 
+## 10. Enable query log
+Let's add age column to users, take all users with the age > 20 and count users for each age:
+
+```
+DB::connection()->enableQueryLog();
+$queries = DB::getQueryLog();
+```
+
+
 
